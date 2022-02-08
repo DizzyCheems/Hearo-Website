@@ -22,20 +22,22 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Store</a></li>
-          <li><a class="nav-link scrollto" href="#team">Artists</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Events</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Join</a></li>
+          <li><a class="nav-link scrollto " href="#store">Store</a></li>
+          <li><a class="nav-link scrollto" href="{{route('artists')}}">Artists</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="modal-button" type="button"  data-target="play-song" 
+                                  href="#contact" type="button">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Join</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
+  
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="home" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
@@ -93,6 +95,9 @@
       </div>
     </section><!-- End Clients Section -->
 
+
+
+
     <!-- ======= About Us Section ======= -->
     <div class="about-cover">
     <section id="about" class="about">
@@ -128,7 +133,7 @@
                     <div>
                       <div class="thumb" >                 
                         <span class="icon"><img src="/succesor/11-119451_social-network-social-network-icon-transparent-black-hd.png" alt=""></span>
-                        Collaborate
+                       Partner
                       </div>
                     </div>
                     <div>
@@ -140,7 +145,7 @@
                     <div class="last-thumb">
                       <div class="thumb">                 
                         <span class="icon"><img src="/succesor/corporate.png" alt=""></span>
-                        Guidelines
+                        Policy
                       </div>
                     </div>
                   </div>
@@ -155,8 +160,10 @@
                           <div class="row">
                             <div class="col-lg-5 align-self-center">
                               <div class="left-text">
-                                <h4><!--Insert Title!--></h4>
-                                <p><!--Insert description!--></p>
+                                <h4>What we do?</h4>
+                                <p>	Hearo is a record label and publisher focused on relieving willing artists the business side of music making 
+    and giving the artist and their community the flexibility of creating, sharing and supporting their creative endeavors.
+</p>
                                 <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i>Read More</a></div>
                               </div>
                             </div>
@@ -198,9 +205,11 @@
                           <div class="row">
                             <div class="col-lg-5 align-self-center">
                               <div class="left-text">
-                                <h4><!--Insert Title!--><h4>
-                                <p><!--Insert Title!--></p>
-                                <div class="main-white-button" ><a href="listing.html"><i class="fa fa-eye"></i> Read More</a></div>
+                                <h4>Mission/Vission<h4>
+                                <p> 
+Hearo Records envisions to be a company that gives hope and opportunity to all artist looking to monetize their artistic fervor and to form a friendly relationship among artist in all ages.
+</p>
+                                <div class="main-white-button" ><a href="{{route('mission/vission')}}"><i class="fa fa-eye"></i> Read More</a></div>
                               </div>
                             </div>
                             <div class="col-lg-7 align-self-center">
@@ -218,9 +227,12 @@
                           <div class="row">
                             <div class="col-lg-5 align-self-center">
                               <div class="left-text">
-                                <h4><!--Insert Title!--></h4>
-                                <p><!--Insert Title!--></p>
-                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> Read More</a></div>
+                                <h4>Guidelines/Policy</h4>
+                                <p>	Rouse Records established these guidelines so that creators outside of Rouse Records can be guided on how to share or
+    create their derivative works. There is no need to contact us for permission if the derivative works and creations 
+    comply with these guidelines but you are free to contact us anytime for more information.
+</p>
+                                <div class="main-white-button"><a href="{{route('policy')}}"><i class="fa fa-eye"></i> Read More</a></div>
                               </div>
                             </div>
                             <div class="col-lg-7 align-self-center">
@@ -238,12 +250,14 @@
                           <div class="row" >
                             <div class="col-lg-5 align-self-center" >
                               <div class="left-text" >
-                                <h4><!--Insert Title!--></h4>
-                                <p><!--Insert Title!--></p>
+                                <h4>Guidelines</h4>
+                                <p>
+	
+</p>
                                 <div class="main-white-button"><a rel="nofollow" href="#"><i class="fa fa-eye"></i> Read More</a></div>
                               </div>
                             </div>
-                            <div class="col-lg-7 align-self-center">s
+                            <div class="col-lg-7 align-self-center">
                               <div class="right-image">
                                 <img src="/succesor/Tentacit Shape transparent-0.png" alt="Traveling Beach">
                               </div>
@@ -274,7 +288,7 @@
 
         <div class="row">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="images/ipi.png" alt="" class="img-fluid">
+            <img src="images/Vinyl-Record-PNG-HD-Quality.png" alt="" class="img-fluid">
           </div>
 
           <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -284,7 +298,7 @@
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span style="color: white;" data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Artists Helped</strong> NULL</p>
+                    <p><strong>Artists </strong> NULL</p>
                   </div>
                 </div>
 
@@ -292,7 +306,7 @@
                   <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
                     <span style="color: white;" data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Concerts Booked</strong>  NULL</p>
+                    <p><strong>Tracks</strong>  NULL</p>
                   </div>
                 </div>
 
@@ -372,6 +386,7 @@
       <div class="container">
 
         <div class="row">
+          
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card" style='background-image: url("/images/distri2.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
@@ -381,6 +396,23 @@
               </div>
             </div>
           </div>
+
+
+          <div class="col-md-6 d-flex align-items-stretch mt-4" STYLE="POSITION:RELATIVE; BOTTOM:25PX;">
+            <div class="card" style='background-image: url("/images/propublish.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Rights Management</a></h5>
+                <p class="card-text"> You make the songs while we do what we are known for monetizing your music to mainstream media.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End More Services Section -->
+
+
+<!--
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="card" style='background-image: url("/images/piano.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
@@ -389,8 +421,9 @@
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
-
           </div>
+-->
+<!--
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("/images/system.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
@@ -400,19 +433,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("/images/propublish.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Publishing Administration</a></h5>
-                <p class="card-text"> You make the songs while we do what we are known for monetizing your music to mainstream media.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End More Services Section -->
+-->
 
     <!-- ======= Features Section ======= --
     <div class="features-cover"
@@ -598,7 +619,7 @@
       </div>
     </section><-- End Testimonials Section -->
     </div>
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Store Section ======= --
     <div class="port-cover">
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -843,7 +864,7 @@
       </div>
     </section><!-- End Team Section -->
     </div>
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Pricing Section ======= --
     <div class="events-cover">
     <section id="pricing" class="pricing">
       <div class="container">
@@ -854,7 +875,7 @@
         </div>
 
         <div class="row">
-         <!-- INSERT EVENTS HERE !-->
+         <!-- INSERT EVENTS HERE !--
 
                 <div class="col-xs-12 col-sm-4">
                         <div class="card">
@@ -880,7 +901,7 @@
                             </div>
                             <div class="card-read-more">
                                 <a href="#" class="btn btn-link btn-block">
-                                <!--    Read More !-->
+                                <!--    Read More !--
                                 </a>
                             </div>
                         </div>
@@ -913,7 +934,7 @@
                             </div>
                             <div class="card-read-more">
                                 <a href="#" class="btn btn-link btn-block">
-                                <!--    Read More !-->
+                                <!--    Read More !--
                                 </a>
                             </div>
                         </div>
@@ -961,7 +982,7 @@
       </div>
     </section><!-- End Pricing Section -->
     </div>
-    <!-- ======= F.A.Q Section ======= -->
+    <!-- ======= F.A.Q Section ======= --
     <div class="faq-cover">
     <section id="faq" class="faq">
       <div class="container">
@@ -980,7 +1001,7 @@
                 NULL
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div><!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
@@ -992,7 +1013,7 @@
               NULL
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div><!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
@@ -1004,7 +1025,7 @@
                NULL
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div><!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-5">
@@ -1016,7 +1037,7 @@
               NULL
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div><!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
           <div class="col-lg-5">
@@ -1028,12 +1049,13 @@
               NULL
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div><!-- End F.A.Q Item--
 
       </div>
     </section><!-- End F.A.Q Section -->
     </div>
-    <!-- ======= Contact Section ======= -->
+
+    <!-- ======= Contact Section ======= --
     <div class="contact-cover">
     <section id="contact" class="contact">
       <div class="container">
@@ -1041,7 +1063,7 @@
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>
         </div>
-
+<!--
         <div class="row">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -1056,24 +1078,16 @@
               </div>
             </div>
           </div>
-
+--
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p class="common-p">I don't Know yet<br>Koronadal City, South Cotabato 9506</p>
-              </div>
-
+         
               <div>
                 <i class="ri-mail-send-line"></i>
-                <p class="common-p">Rouser@Gmail.com</p>
+                <p class="common-p">Domain@Domain.com</p>
               </div>
 
-              <div>
-                <i class="ri-phone-line"></i>
-                <p class="common-p">+09214121232s</p>
-              </div>
-
+         
             </div>
           </div>
 
@@ -1083,7 +1097,7 @@
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="mail" id="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
@@ -1113,14 +1127,15 @@
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Vesperr</strong>. All Rights Reserved
+
+            &copy; Copyright <strong>Hearo Records</strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="#"> Hearo Inc.</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -1137,9 +1152,187 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  
+  <script>  // Get the button that opens the modal
+var btn = document.querySelectorAll(".modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}</script>
+
+<script type="text/javascript">
+ var urlmenu = document.getElementById( 'genres' );
+ urlmenu.onchange = function() {  
+      window.open( this.options[ this.selectedIndex ].value );
+ };
+</script>
+  
 </body>
 @endsection
 </html>
+
+
+
+<!---CONTACT FORM MODAL!--->
+<!--MODAL!-->
+<div id="contact" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <span class="close">&times;</span>
+     
+    </div>
+    <section class="ftco-section img bg-hero" style="background-image: url(/images/retrowave-neon-artwork-minimalism-wallpaper-preview.jpg);">      
+    <div class="modal-body" style="background-image: url('#');
+    background-repeat:no-repeat;   background-size: cover;" >
+  
+<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Submit Your Queries Here</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-11">
+					<div class="wrapper">
+						<div class="row no-gutters justify-content-between">
+							<div class="col-lg-6 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-5">
+									<h3 class="mb-4">Contact us</h3>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text pl-4">
+					            <p class="common-p"><span style="color:white;">Address:</span> Koronadal City, South Cotabato, 9506, Philippines</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-4">
+					            <p class="common-p"><span  style="color:white;">Phone:</span> + 0995-673-0952 (This is just a sample CP number)</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-4">
+					            <p class="common-p"><span  style="color:white;">Email:</span> Query@Hearo.com</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-4">
+					            <p class="common-p"><span  style="color:white;">Website</span> Hearo.com</p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-lg-5">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Get in touch</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" action="{{route('concern')}}" name="contactForm">
+                    @csrf
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="mail" id="mail" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		
+<!-- Analytics -->
+<!-- End of Audio Control Parameter -->
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+    </div>
+  </div>
+
+</div>
+
+
+
+<!--END of Paramenter!-->
+
+
+
 
 
 

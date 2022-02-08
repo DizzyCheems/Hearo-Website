@@ -17,7 +17,7 @@
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
         <img class="logo-prop" src="/images/TentacitV1.1.png"  > 
-        <nav id="navbar" class="navbar" >
+        <nav id="navbar" class="navbar" style="margin-right:40px;" >
         <ul>
           <li class="home-char"><a class="nav-link scrollto active" href="{{route('homepage')}}">Home</a></li>
         <li >  <input class="input" type="text" placeholder="Search.."> </li>
@@ -41,7 +41,7 @@
                           <option value="Modern City">Trap</option>
                           <option value="Modern City">Future Bass</option>
                           <option value="Modern City">Complextro</option>
-                          <option value="drumstep">Drumstep</option>
+                          <option value="/Dance">Dance</option>
                           <option value="Modern City">Bounce</option>
                       </select>
             </fieldset>
@@ -70,16 +70,16 @@
 
 <!--BANNER AREA!-->
 
- <section id="hero" class="d-flex align-items-center">
+ <section id="home-musiclist" class="d-flex align-items-center">
  <img class="featured-artist" src="/succesor/image/cover.jpg" style="  width: 350px; height:300px;
  margin-top:20px; margin-left:50px;">
     <div class="container">
         
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Leading Artist!</h1>
+          <h1 data-aos="fade-up">Favourites!</h1>
           <img class="leading-artist">
-          <h2 data-aos="fade-up" data-aos-delay="400">Astra Cartier</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Our Song - Astra Cartier</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="#" class="btn-get-started scrollto">Readmore</a>
             <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
@@ -136,7 +136,7 @@
                                 <!-- Trigger/Play button-->
                                 <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
                                  type="button"  class="modal-button" data-target="play-song" 
-                                  href="#song2" type="button">
+                                  href="#song1" type="button">
                             </div>
                             <div class="card-read-more">
                                 <a href="#" class="btn btn-link btn-block">
@@ -146,7 +146,7 @@
                         </div>
                     </div>  
 <!--MODAL!-->
-<div id="song2" class="modal">
+<div id="song1" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
@@ -163,7 +163,7 @@
 <img src="/succesor/image/Raez.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
 
 <!-- Audio player !-->
-<audio src="/succesor/songs/STRINGSfinal.mp3 " controls 
+<audio src="/succesor/songs/STRINGSfinal.mp3.mp3 " controls 
 style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
 right:150px;"> </audio>  
 
@@ -183,10 +183,7 @@ right:150px;"> </audio>
 
 </div>
 
-
-
 <!-- 2ND Song !-->
-
                     <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
                             <a class="img-card" href="">
@@ -212,7 +209,7 @@ right:150px;"> </audio>
                                 <!-- Trigger/Play button-->
                                 <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
                                  type="button"  class="modal-button" data-target="play-song" 
-                                  href="#myModal1" type="button">
+                                  href="#song2" type="button">
                             </div>
                             <div class="card-read-more">
                                 <a href="#" class="btn btn-link btn-block">
@@ -222,7 +219,7 @@ right:150px;"> </audio>
                         </div>
                     </div>  
 <!--MODAL!-->
-<div id="myModal1" class="modal">
+<div id="song2" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
@@ -257,6 +254,8 @@ right:150px;"> </audio>
     </div>
   </div>
 </div>
+
+
 
 
 <!--3RD Song !-->
@@ -337,6 +336,228 @@ right:150px;"> </audio>
 
 
 
+<!-- 4th Song !-->
+<div class="col-xs-12 col-sm-4">
+                        <div class="card"  style="width: 20rem;  ">
+                            <a class="img-card" href="">
+                            <img src="/succesor/image/cover.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="" > Lush
+                                  </a>
+                                </h4>
+                                <h5 class="card-title">
+                                    <a href=""> astra cartier
+                                  </a>
+                                </h5>
+                                <p class="">
+                                November 16, 2021 
+                                </p>  
+                                <h5 class="card-title">
+                                    <a href=""> Unknown
+                                  </a>
+                                </h5>
+                    
+                                <!-- Trigger/Play button-->
+                                <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
+                                 type="button"  class="modal-button" data-target="play-song" 
+                                  href="#song4" type="button">
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+<!--MODAL!-->
+<div id="song4" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <span class="close">&times;</span>
+      <h2 class="songh2">Home at Last (2021)</h2>
+    </div>
+      
+    <div class="modal-body" style="background-image: url('/succesor/albumbg/lines.gif');
+    background-repeat:no-repeat;   background-size: cover; " >
+      <h2 class="song-titleh2">Lush </h2>
+      <h2 class="song-titleh2">astra cartier</h2>
+
+<img src="/succesor/image/cover.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
+
+<!-- Audio player !-->
+<audio src="/succesor/songs/2 astra cartier - lushful.mp3" controls 
+style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
+right:150px;"> </audio>  
+
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		
+<!-- Analytics -->
+<!-- End of Audio Control Parameter -->
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <h3 class="songh2"> Orchestral</h3>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 5th Song !-->
+<div class="col-xs-12 col-sm-4">
+                        <div class="card"  style="width: 20rem;  ">
+                            <a class="img-card" href="">
+                            <img src="/succesor/image/cover.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="" >  Flowers Beneath Me
+                                  </a>
+                                </h4>
+                                <h5 class="card-title">
+                                    <a href=""> astra cartier
+                                  </a>
+                                </h5>
+                                <p class="">
+                                November 16, 2021 
+                                </p>  
+                                <h5 class="card-title">
+                                    <a href=""> Drumstep
+                                  </a>
+                                </h5>
+                    
+                                <!-- Trigger/Play button-->
+                                <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
+                                 type="button"  class="modal-button" data-target="play-song" 
+                                  href="#song5" type="button">
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+<!--MODAL!-->
+<div id="song5" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <span class="close">&times;</span>
+      <h2 class="songh2">Home at Last (2021)</h2>
+    </div>
+      
+    <div class="modal-body" style="background-image: url('/succesor/albumbg/lines.gif');
+    background-repeat:no-repeat;   background-size: cover; " >
+      <h2 class="song-titleh2">Flowers Beneath Me</h2>
+      <h2 class="song-titleh2">astra cartier</h2>
+
+<img src="/succesor/image/cover.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
+
+<!-- Audio player !-->
+<audio src="/succesor/songs/1 astra cartier - flowers beneath me (intro).mp3" controls 
+style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
+right:150px;"> </audio>  
+
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		
+<!-- Analytics -->
+<!-- End of Audio Control Parameter -->
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <h3 class="songh2"> Orchestral</h3>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 6th Song !-->
+<div class="col-xs-12 col-sm-4">
+                        <div class="card"  style="width: 20rem;  ">
+                            <a class="img-card" href="">
+                            <img src="/succesor/image/cover.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="" > Confide
+                                  </a>
+                                </h4>
+                                <h5 class="card-title">
+                                    <a href=""> astra cartier
+                                  </a>
+                                </h5>
+                                <p class="">
+                                November 16, 2021 
+                                </p>  
+                                <h5 class="card-title">
+                                    <a href=""> Drumstep
+                                  </a>
+                                </h5>
+                    
+                                <!-- Trigger/Play button-->
+                                <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
+                                 type="button"  class="modal-button" data-target="play-song" 
+                                  href="#song6" type="button">
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+<!--MODAL!-->
+<div id="song6" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <span class="close">&times;</span>
+      <h2 class="songh2">Home at Last (2021)</h2>
+    </div>
+      
+    <div class="modal-body" style="background-image: url('/succesor/albumbg/lines.gif');
+    background-repeat:no-repeat;   background-size: cover; " >
+      <h2 class="song-titleh2">Confide</h2>
+      <h2 class="song-titleh2">astra cartier</h2>
+
+<img src="/succesor/image/cover.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
+
+<!-- Audio player !-->
+<audio src="/succesor/songs/4 astra cartier - confide.mp3" controls 
+style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
+right:150px;"> </audio>  
+
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		
+<!-- Analytics -->
+<!-- End of Audio Control Parameter -->
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <h3 class="songh2"> Orchestral</h3>
+    </div>
+  </div>
+</div>
+
+
+
 <!--END of Paramenter!-->
 <!-- END OF PARAMETER -->
 
@@ -364,14 +585,14 @@ right:150px;"> </audio>
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Vesperr</strong>. All Rights Reserved
+            &copy; Copyright <strong>Hearo Records</strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/"> Rouser (Former Tentacit) Media</a>
           </div>
         </div>
         <div class="col-lg-6">

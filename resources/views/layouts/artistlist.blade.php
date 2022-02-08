@@ -17,7 +17,7 @@
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
         <img class="logo-prop" src="/images/TentacitV1.1.png"  > 
-        <nav id="navbar" class="navbar" >
+        <nav id="navbar" class="navbar" style="margin-right:40px;">
         <ul>
           <li class="home-char"><a class="nav-link scrollto active" href="{{route('homepage')}}">Home</a></li>
         <li >  <input class="input" type="text" placeholder="Search.."> </li>
@@ -105,7 +105,52 @@
     <!-- INSERT SONGS HERE !-->
 
 <!-- INSERT ARTISTS HERE -->
+                
+  <section class="wrapper-artistlisting" >
+    <div class="container-fostrap" >
+        <div class="content" >
+            <div class="container" >
+                <div class="row">
+                
+               @foreach($artists as $artists)
+                <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="#">
+                            <img src="/image/{{ $artists->image }}">
+                          </a>
+                            <div class="card-content-artist-list">
+                                <h4 class="card-title-artist-list">
+                                    {{$artists['artistname']}}
+                                </h4>
+                                <h5 class="card-title">
+                                    <a href="#"> 
+                                  </a>
+                                </h5>
+                                <p class="date-joined-title" style="text-align:center;"> Joined:
+                                {{$artists['dateregistered']}}
+                                </p>  
+                                <p p class="artist-genre-title" > 
+                                  {{$artists['genre']}} 
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                <!--    Read More !-->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
 
+                
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+              
 <!--END OF ARTISTS SECTION!-->
 
 
@@ -123,14 +168,14 @@
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Vesperr</strong>. All Rights Reserved
+            &copy; Copyright <strong>Hearo Records</strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="#"> Hearo Inc.</a>
           </div>
         </div>
         <div class="col-lg-6">

@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Rouser Studio|HOME</title>
+  <title>Hearo Records|HOME</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -26,6 +26,13 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
   
 <!--- SUCCESOR CSS FILES -->
 
@@ -81,5 +88,10 @@
   <script src="/succesor/assets/js/animation.js"></script>
   <script src="/succesor/assets/js/imagesloaded.js"></script>
   <script src="/succesor/assets/js/custom.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

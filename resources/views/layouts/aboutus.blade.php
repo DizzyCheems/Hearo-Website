@@ -128,8 +128,10 @@ body {
                           <div class="row">
                             <div class="col-lg-5 align-self-center">
                               <div class="left-text">
-                                <h4><!--Insert Title!--></h4>
-                                <p><!--Insert description!--></p>
+                                <h4>What we do</h4>
+                                <p>	MusicK is a record label and publisher focused on relieving willing artists the business side of music making 
+    and giving the artist and their community the flexibility of creating, sharing and supporting their creative endeavors.
+</p>
                                 <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i>Read More</a></div>
                               </div>
                             </div>
@@ -211,12 +213,37 @@ body {
                           <div class="row" >
                             <div class="col-lg-5 align-self-center" >
                               <div class="left-text" >
-                                <h4><!--Insert Title!--></h4>
-                                <p><!--Insert Title!--></p>
+                                <h4>Guidelines and Usage Policy</h4>
+                                <p>
+	MusicK established these guidelines so that creators outside of [Company Name] can be guided on how to share or
+    create their derivative works. There is no need to contact us for permission if the derivative works and creations 
+    comply with these guidelines but you are free to contact us anytime for more information.
+
+    
+What is considered "Derivative Works"?
+	We consider a work to be derivative work if the work in question is inspired or uses parts of its content based on
+    releases published by [Company Name]. We do not consider a work derivative if the work it is based from is unmodified or lacks
+    sufficient creativity. Such works that is not classified as derivative work may still be shared if the work it is based from 
+    uses the Creative Commons License.
+
+So can I share creations that is considered derivative works?
+	Of course, be our guest.
+
+Can I monetize my work if it is considered derivative work?
+	Depends, if the work it is based on has a NonCommercial Creative Commons License then you are not allowed to monetize your work without explicit permission.
+    If the work does not have a NonCommercial Creative Commons License then you may contact us here ==link the contact page on the text "here"==
+
+How do I know if the track uses the Creative Commons License?
+	Check our webpage, each track should have a description page linked. The description will tell you if the track uses the license.
+    You can browse tracks published by [Company Name] here. ==link the track page on the text "here"==
+    
+
+
+</p>
                                 <div class="main-white-button"><a rel="nofollow" href="#"><i class="fa fa-eye"></i> Read More</a></div>
                               </div>
                             </div>
-                            <div class="col-lg-7 align-self-center">s
+                            <div class="col-lg-7 align-self-center">
                               <div class="right-image">
                                 <img src="/succesor/Tentacit Shape transparent-0.png" alt="Traveling Beach">
                               </div>

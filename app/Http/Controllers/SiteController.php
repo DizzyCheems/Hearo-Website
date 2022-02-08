@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\artists;
+use App\Models\prospect;
 use App\Models\Site;
 use Illuminate\Http\Request;
 
@@ -42,6 +44,20 @@ class SiteController extends Controller
         return view('pages.client_artistlist');
     }
 
+     /**
+     * Display a listing of the resource.   
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function show_artistlist()
+    {
+        // 
+             //
+             $data= artists::all();
+             return view ('pages.client_artistlist', ['artists'=>$data]);
+    }
+
+
         /**
      * Display a listing of the resource.   
      *
@@ -52,6 +68,42 @@ class SiteController extends Controller
         // 
         return view('pages.client_musiclibrary');
     }
+
+
+    public function genre_drumstep()
+    {
+        //
+        return view('pages.filter.dance');
+    }
+
+
+    public function genre_orchestral()
+    {
+        //
+        return view('pages.filter.orchestral');
+    }
+
+
+    public function genre_kawaii()
+    {
+        //
+        return view('pages.filter.kawaii');
+    }
+
+    public function policy()
+    {
+        //
+        return view('pages.client_policy');
+    }
+
+    public function vission()
+    {
+        //
+        return view('pages.client_vission');
+    }
+
+
+
 
 
     /**
@@ -70,9 +122,24 @@ class SiteController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function query(Request $request)
     {
-        //
+                //
+        $message=[
+            'required' => 'This credential field is required!'
+        ];
+        $request->validate([
+            'name'=>'required',
+            'mail'=>'required|email',
+            'subject'=>'required',
+            'message'=>'required'
+
+        ],$message);
+        prospect::create($request->all());
+        return redirect()->route('homepage')
+                        ->with('success', 'Your Message has been sent.');
+    
+
     }
 
     /**

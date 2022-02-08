@@ -24,8 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif;}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -99,11 +98,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-}
+  font-family: "Raleway", sans-serif;}
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #222222;
   text-decoration: none;
-}
+  font-family: "Raleway", sans-serif;}
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -127,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   align-items: center;
   margin-right: 100px;
-  font-family:"Ethnocentric Rg" !important;
+  font-family: "Raleway", sans-serif;
   font: size 18px;
 }
 .navbar li {
@@ -138,11 +137,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 18px;
-  color: gray;
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;  
   white-space: nowrap;
   transition: 0.3s;
+  margin-right:23px;
 }
+
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
@@ -307,17 +309,124 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section 
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
   background-image: url('/images/EDM.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:"Ethnocentric Rg" !important;
+  font-family: "Raleway", sans-serif;}
+
+/*MUSIC LIBRARY SECTION */
+#home-musiclist {
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+  background-image: url('/succesor/albumbg/164763-building-atmosphere-skyscraper-world-light-x750.jpg');
+  background-repeat:no-repeat;   
+  background-size: cover; 
+  font-family: "Raleway", sans-serif;}
+
+#home-musiclist h1 {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  font-family: "Raleway", sans-serif;}
+#home-musiclist h2 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif; 
 }
+
+#home-musiclist .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+}
+#home-musiclist .btn-get-started:hover {
+  background: black;
+  color: #fff;
+}
+#home-musiclist .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media (min-width: 1024px) {
+  #home-musiclist {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 991px) {
+  #home-musiclist {
+    height: 100vh;
+  }
+  #home-musiclist .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #home-musiclist .home-img {
+    text-align: center;
+  }
+  #home-musiclist .home-img img {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #home-musiclist {
+    margin-top: 20px;
+  }
+  #home-musiclist h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #home-musiclist h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #home-musiclist .home-img img {
+    width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  #home-musiclist .home-img img {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*END OF MUSICLIBRARY SECTION*/
+
+
 #artistlist-cover{
   background-image: url('/images/night-music-the-city-neon-wallpaper-preview.jpg');
   width: 100%;
@@ -325,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:"Ethnocentric Rg" !important;
+  font-family: "Raleway", sans-serif;
 }
 
 #artistlist-cover h1 {
@@ -334,14 +443,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: white;
-  font-family:"Ethnocentric Rg" !important;
-}
+  font-family: "Raleway", sans-serif;}
 #artistlist-cover h2 {
   color: white;
   margin-bottom: 50px;
-  font-size: 20px;
-  font-family:"Ethnocentric Rg" !important;
-  
+  font-size: 20px;  font-family: "Raleway", sans-serif;
 }
 
 #artistlist-cover .btn-get-started {
@@ -376,10 +482,10 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-animation: none;
     animation: none;
   }
-  #artistlist-cover .hero-img {
+  #artistlist-cover .home-img {
     text-align: center;
   }
-  #artistlist-cover .hero-img img {
+  #artistlist-cover .home-img img {
     width: 50%;
   }
 }
@@ -390,18 +496,19 @@ h1, h2, h3, h4, h5, h6 {
   #artistlist-cover h1 {
     font-size: 28px;
     line-height: 36px;
-  }
+    font-family: "Raleway", sans-serif;
+   }
   #artistlist-cover h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #artistlist-cover .hero-img img {
+  #artistlist-cover .home-img img {
     width: 70%;
   }
 }
 @media (max-width: 575px) {
-  #artistlist-cover .hero-img img {
+  #artistlist-cover .home-img img {
     width: 80%;
   }
 }
@@ -425,23 +532,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*END of Artistlist Section*/
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 26px;
   font-weight: 700;
   line-height: 56px;
   color: white;
-  font-family:"Ethnocentric Rg" !important;
+  font-family: "Raleway", sans-serif;
 }
-#hero h2 {
+#home h2 {
   color: white;
   margin-bottom: 50px;
   font-size: 20px;
-  font-family:"Ethnocentric Rg" !important;
-  
+  font-family: "Raleway", sans-serif;  
   
 }
-#hero .btn-get-started {
+#home .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -453,52 +559,52 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   border: 2px solid white;
 }
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: black;
   color: #fff;
 }
-#hero .animated {
+#home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #home {
     background-attachment: fixed;
   }
 }
 @media (max-width: 991px) {
-  #hero {
+  #home {
     height: 100vh;
   }
-  #hero .animated {
+  #home .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #hero .hero-img {
+  #home .home-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  #home .home-img img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  #hero {
+  #home {
     margin-top: 20px;
   }
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
-  }
-  #hero h2 {
+    font-family: "Raleway", sans-serif;}
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 70%;
   }
 }
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #home .home-img img {
     width: 80%;
   }
 }
@@ -554,8 +660,7 @@ section {
   text-transform: uppercase;
   position: relative;
   color: magenta;
-  font-family:"Ethnocentric Rg" !important;
-}
+  font-family: "Raleway", sans-serif;}
 
 
 .about-p {
@@ -1443,6 +1548,14 @@ color:white;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact-h4{
+  color: aliceblue;
+    font-size: 26px;
+
+  
+}
+
 .contact-cover{
   background-image: url('/images/slide_37.jpg');
   background-repeat: no-repeat;

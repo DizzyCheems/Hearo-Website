@@ -326,9 +326,6 @@ body {
   width: 100%;
   margin-bottom:80px;
   bottom:40px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('/succesor/ultraviolet.jpg');
   position:relative;
 }
 
@@ -416,8 +413,7 @@ h1.heading {
   margin-top:0px;
   font-weight: 700;
   font-size: 0.95em;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
   
@@ -431,8 +427,7 @@ h1.heading {
   font-size: 0.91em;
   color:black ;
   
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 
@@ -447,8 +442,7 @@ h1.heading {
   text-align: center;
   font-size: 0.61em;
   color: white;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -461,8 +455,7 @@ h1.heading {
   text-align: center;
   font-size: 1.25em;
   color: white;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
   
@@ -662,8 +655,7 @@ body {
   letter-spacing: 0.25px;
   transition: all .3s;
 
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 
@@ -1214,8 +1206,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
    color:azure; 
    font-weight:bold;   
    font-size:20px;
-   font-family:"Ethnocentric Rg" !important;
-   -webkit-font-smoothing: antialiased;
+   font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
    -webkit-text-stroke-width: 0.2px;
    -moz-osx-font-smoothing: grayscale;
 }
@@ -1228,8 +1219,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   left:400px; 
   font-weight:bold; 
   color:white;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1242,8 +1232,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   font-weight:bold; 
   color:white;
   font-size:20px;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1297,8 +1286,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1308,8 +1296,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   font-size: 45px;
   font-weight: 800;
   text-transform: capitalize;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 
@@ -1321,8 +1308,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   color:azure; 
   font-weight:bold; 
   font-size:20px;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1333,8 +1319,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   font-weight:bold;   
   font-size:20px;
   margin-left:80px; 
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 
@@ -1357,8 +1342,7 @@ Banner Style   background-image: url(/image/synthwave-music-retro-neon-city-wall
   text-align: center;
   font-size: 9.5px;
   margin-top: 15px;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 
@@ -1507,8 +1491,7 @@ Popular Categories
 .thumb-fonts{
   font-weight: bold;
   font-size: 12;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1534,8 +1517,7 @@ Popular Categories
   cursor: pointer;
   position: relative;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1584,8 +1566,7 @@ Popular Categories
   font-weight: 700;
   line-height: 35px;
   margin-bottom: 30px;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 
@@ -2008,8 +1989,7 @@ Page Heading
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 }
@@ -2021,8 +2001,7 @@ Page Heading
   font-weight: 800;
   text-transform: capitalize;
   margin-top: 15px;
-  font-family:"Ethnocentric Rg" !important;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;-webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;	
   -moz-osx-font-smoothing: grayscale;
 }
