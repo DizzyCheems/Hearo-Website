@@ -1,7 +1,12 @@
 <html>
 
 <head>
+<meta content="" name="description">
+<meta content="" name="keywords">
 
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 @section('site_policy')
@@ -16,7 +21,7 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-        <img src="/images/TentacitV1.1.png"  style="width:400px; height:100px; margin-top:-13px; margin-left: 40px;">
+      <img class="logo-prop" src="/images/Hearo.png"  > 
         <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>

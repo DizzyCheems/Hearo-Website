@@ -2,6 +2,15 @@
 
 <head>
 
+<title>Hearo|HOME</title>
+
+
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 @section('site_contents')
@@ -16,7 +25,7 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-        <img src="/images/TentacitV1.1.png"  style="width:400px; height:100px; margin-top:-13px; margin-left: 40px;">
+        <img src="/images/Hearo.png"  class="logo-prop">
         <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -169,7 +178,7 @@
                             </div>
                             <div class="col-lg-7 align-self-center">
                               <div class="right-image">
-                                <img src="/succesor/Tentacit Shape transparent-0.png" alt="">
+                                <img src="/images/Hearo.png" alt="">
                               </div>
                             </div>
                           </div>
@@ -214,7 +223,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                             </div>
                             <div class="col-lg-7 align-self-center">
                               <div class="right-image">
-                                <img src="/succesor/Tentacit Shape transparent-0.png" alt="cars in the city">
+                                <img src="/images/Hearo.png" alt="cars in the city">
                               </div>
                             </div>
                           </div>
@@ -237,7 +246,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                             </div>
                             <div class="col-lg-7 align-self-center">
                               <div class="right-image">
-                                <img src="/succesor/Tentacit Shape transparent-0.png" alt="Shopping Girl">
+                                <img src="/images/Hearo.png" alt="Shopping Girl">
                               </div>
                             </div>
                           </div>
@@ -259,7 +268,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                             </div>
                             <div class="col-lg-7 align-self-center">
                               <div class="right-image">
-                                <img src="/succesor/Tentacit Shape transparent-0.png" alt="Traveling Beach">
+                                <img src="/images/Hearo.png" alt="Traveling Beach">
                               </div>
                             </div>
                           </div>

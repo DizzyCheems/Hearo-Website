@@ -1,7 +1,12 @@
 <html>
 
 <head>
+<meta content="" name="description">
+<meta content="" name="keywords">
 
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 @section('site_artistlist')
@@ -16,7 +21,7 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-        <img class="logo-prop" src="/images/TentacitV1.1.png"  > 
+        <img class="logo-prop" src="/images/Hearo.png"  > 
         <nav id="navbar" class="navbar" style="margin-right:40px;">
         <ul>
           <li class="home-char"><a class="nav-link scrollto active" href="{{route('homepage')}}">Home</a></li>

@@ -1,7 +1,9 @@
 <html>
 
 <head>
-
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 @section('genre_orchestral')
@@ -29,19 +31,20 @@
                           <option value="Old Town">Bass</option>
                           <option value= "orchestral">Orchestral </option>
                           <option value="Modern City">House</option>
+                          <option value="lofi">Lo-Fi</option>
                           <option value="Modern City">Synthwave</option>
                           <option value="Modern City">Ambient</option>
                           <option value="Modern City">Dubstep</option>
-                          <option value="Modern City">Drums and Bass</option>
+                          <option value="drums&bass">Drums and Bass</option>
                           <option value="Modern City">Future House</option>
                           <option value="Modern City">Trance</option>
                           <option value="Modern City">Progressive</option>
                           <option value="kawaii">Kawaii</option>
                           <option value="Modern City">Electro Swing</option>
                           <option value="Modern City">Trap</option>
-                          <option value="Modern City">Future Bass</option>
+                          <option value="Future Bass">Future Bass</option>
                           <option value="Modern City">Complextro</option>
-                          <option value="{{route('dance')}}">Dance</option>
+                          <option value="/Dance">Dance</option>
                           <option value="Modern City">Bounce</option>
                       </select>
             </fieldset>
@@ -113,7 +116,7 @@
             <div class="container" >
                 <div class="row">
         
-                    <div class="col-xs-12 col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem; ">
                             <a class="img-card" href="">
                             <img src="/succesor/image/Raez.jpg" />
@@ -138,7 +141,7 @@
                                 <!-- Trigger/Play button-->
                                 <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
                                  type="button"  class="modal-button" data-target="play-song" 
-                                  href="#song2" type="button">
+                                  href="#song1" type="button">
                             </div>
                             <div class="card-read-more">
                                 <a href="#" class="btn btn-link btn-block">
@@ -148,7 +151,7 @@
                         </div>
                     </div>  
 <!--MODAL!-->
-<div id="song2" class="modal">
+<div id="song1" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
@@ -157,7 +160,7 @@
       <h2 class="songh2">"Album Name"</h2>
     </div>
       
-    <div class="modal-body" style="background-image: url(/succesor/image/7bcc75bd4595cd470247bb872031e7d8-700.jpg);
+    <div class="modal-body" style="background-image: url(/succesor/albumbg/7bcc75bd4595cd470247bb872031e7d8-700.jpg);
     background-repeat:no-repeat;   background-size: cover;"  >
       <h2 class="song-titleh2" >Love Mee Too</h2>
       <h2 class="song-titleh2">Razaec</h2>
@@ -165,9 +168,85 @@
 <img src="/succesor/image/Raez.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
 
 <!-- Audio player !-->
-<audio src="/succesor/songs/STRINGSfinal.mp3 " controls 
-style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
-right:150px;"> </audio>  
+<div class="container-audio">
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+    </div>
+
+<div class="container-audio">
+        <audio controls >
+                   <source src="/succesor/songs/STRINGSfinal.mp3.mp3 " type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+    
 
 <!-- partial -->
         

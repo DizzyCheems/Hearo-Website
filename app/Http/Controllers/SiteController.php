@@ -90,6 +90,26 @@ class SiteController extends Controller
         return view('pages.filter.kawaii');
     }
 
+    public function genre_lofi()
+    {
+        //
+        return view('pages.filter.lofi');
+    }
+
+    public function genre_drumsnbass()
+    {
+        //
+        return view('pages.filter.drumsnbass');
+    }
+
+    
+    public function genre_futurebass()
+    {
+        //
+        return view('pages.filter.futurebass');
+    }
+
+
     public function policy()
     {
         //
@@ -100,6 +120,19 @@ class SiteController extends Controller
     {
         //
         return view('pages.client_vission');
+    }
+
+    public function artist_info()
+    {
+        //
+        return view('pages.artist_readmore');
+    }
+
+
+    public function song_info()
+    {
+        //
+        return view('pages.song_readmore');
     }
 
 

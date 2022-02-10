@@ -31,10 +31,21 @@ Route::get('/Mission&Vission',[App\Http\Controllers\SiteController::class,'vissi
 
 /*<!--- Genres----!>*/
 Route::get('/Dance',[App\Http\Controllers\SiteController::class,'genre_drumstep' ])->name('dance');
-Route::get('/kawaii',[App\Http\Controllers\SiteController::class,'genre_kawaii' ])->name('kawaii');
 Route::get('/orchestral',[App\Http\Controllers\SiteController::class,'genre_orchestral' ])->name('orchestral');
+Route::get('/lofi',[App\Http\Controllers\SiteController::class,'genre_lofi' ])->name('lofi');
+Route::get('/drums&bass',[App\Http\Controllers\SiteController::class,'genre_drumsnbass' ])->name('drumsnbass');
+Route::get('/Future Bass',[App\Http\Controllers\SiteController::class,'genre_futurebass' ])->name('futurebass');
 /*<END>*/
 
 /*<!--Contact--!>*/
 Route::post('/contact-sent',[App\Http\Controllers\SiteController::class,'query' ])->name('concern');
+/*<END>*/
+
+/*<!--Artist Information (READMORE)--!>*/
+Route::get('/artist-information',[App\Http\Controllers\SiteController::class,'artist_info' ])->name('artist');
+/*<END>*/
+
+
+/*<!--Song Information (READMORE)--!>*/
+/*Route::get('/song-information',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song');
 /*<END>*/

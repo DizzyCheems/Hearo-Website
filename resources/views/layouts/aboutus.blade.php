@@ -12,6 +12,13 @@
 
     <title>Plot Listing Page</title>
 
+    <meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <style>
 body {
     min-width: 1280px; 
@@ -41,7 +48,7 @@ body {
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="{{route('homepage')}}" class="logo"> <img src="/succesor/TentacitV1.1.png" class="hover-logo " style="width: 250px; height:100px; margin-top:-23px; margin-left: -160px;">  
+            <a href="{{route('homepage')}}" class="logo"> <img class="logo-prop" src="/images/Hearo.png"  > 
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->

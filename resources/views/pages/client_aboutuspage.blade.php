@@ -4,15 +4,22 @@
 
   <head>
     <title>TENTACIT|AboutUs|Info</title>
+     <!-- Favicons -->
+  <link href="/images/Hearo.png"  rel="icon">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+  
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Plot Listing HTML5 Website Template</title>
 
+<!-- Favicons -->
+<link href="/images/Hearo.png"  rel="icon">
 @include('layouts.aboutus')
   </head>
 

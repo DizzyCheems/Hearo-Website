@@ -1,91 +1,55 @@
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
+<head>
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+</head>
 
-  <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <meta name="author" content="Codeconvey" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Custom HTML5 Audio Player Example</title>
-    <meta name="author" content="Codeconvey" />
-    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!--Only for demo purpose - no need to add.-->
-    <title>Plot Listing Page</title>
-    <link href="//db.onlinewebfonts.com/c/61357b73f548c40ca84179811bc83520?family=Viper+Squadron+Italic" rel="stylesheet" type="text/css"/>
-  
-    <style>
-body {
-    min-width: 1280px; 
-}
-</style>
-
-  </head>
-@section('orchestral_filter')
+@section('genre_futurebass')
 <body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center"  style="background-image:url('/images/WallpaperDog-10881763.jpg');">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="logo">
+       <h1><a href="{{route('homepage')}}">
+       </a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
+        <img class="logo-prop" src="/images/TentacitV1.1.png"  > 
+        <nav id="navbar" class="navbar" style="margin-right:40px;">
+        <ul>
+          <li class="home-char"><a class="nav-link scrollto active" href="{{route('homepage')}}">Home</a></li>
+        <li >  <input class="input" type="text" placeholder="Search.."> </li>
 
-  <!-- ***** Header Area Start ***** -->
-  
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            
-            <!-- ***** Logo Start ***** -->
-            
-            <a href="{{route('client_homepage')}}" class="logo"> <img src="/TentacitV1.1.png" class="hover-logo " style="width: 250px; height:100px; margin-top:-23px; margin-left: -160px;">  
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            
-            <ul class="nav">
-            <fieldset>
+          <fieldset class="genre-prop" >
                       <select name="genres" class="form-select" aria-label="Area" id="genres" onchange="this.form.click()">
                           <option selected>Genre</option>
                           <option value="New Village">Electro</option>
                           <option value="Old Town">Bass</option>
-                          <option value= "orchestral">   Orchestral </option>
+                          <option value= "orchestral">Orchestral </option>
                           <option value="Modern City">House</option>
+                          <option value="lofi">Lo-Fi</option>
                           <option value="Modern City">Synthwave</option>
                           <option value="Modern City">Ambient</option>
                           <option value="Modern City">Dubstep</option>
-                          <option value="Modern City">Drums and Bass</option>
+                          <option value="drums&bass">Drums and Bass</option>
                           <option value="Modern City">Future House</option>
                           <option value="Modern City">Trance</option>
                           <option value="Modern City">Progressive</option>
                           <option value="kawaii">Kawaii</option>
                           <option value="Modern City">Electro Swing</option>
                           <option value="Modern City">Trap</option>
-                          <option value="Modern City">Future Bass</option>
+                          <option value="Future Bass">Future Bass</option>
                           <option value="Modern City">Complextro</option>
-                          <option value="drumstep">Drumstep</option>
+                          <option value="/Dance">Dance</option>
                           <option value="Modern City">Bounce</option>
                       </select>
             </fieldset>
 
-            <fieldset style="margin-left:20px;">
+            <fieldset class="mood-prop">
                       <select name="area" class="form-select" aria-label="Area" id="chooseCategory" onchange="this.form.click()">
                           <option selected>Mood</option>
                           <option value="New Village">Happy/Upbeat</option>
@@ -98,49 +62,50 @@ body {
                       </select>
             </fieldset>
 
-              <li><a href="{{route('client_homepage')}}" class="active">Home</a></li>
-              <li><a href="#">Open Social</a></li>
-              <li><a href="{{route('client_aboutusinfo')}}">About Us</a></li>
-              <li><a href="{{route('client_contactinfo')}}">Contact Us</a></li> 
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <body>
+
+<!--BANNER AREA!-->
+
+ <section id="home" class="d-flex align-items-center">
+ <img class="featured-artist" src="/succesor/image/cover.jpg" style="  width: 350px; height:300px;
+ margin-top:20px; margin-left:50px;">
+    <div class="container">
         
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->  
-
-  <div class="musiclibrary-banner">
-  </div>
-
-  <div class="musiclibrary-photo" >
-
-  </div>
-
-<div>
-  <h4 class="header-artistname-feat"> Featured Artist</h4>
-  
-  </div>
-
-  <h2 class="header-songname"> astra cartier </h2>
-<h4 class="header-artistname"> our song (outro)</h4>
-
-<div class="container" style="position: relative; margin-top:-240px;">
       <div class="row">
-        <div class="col-lg-8">
-        <div class="top-text header-text" style="position:relative; ">
-            <h6></h6>
-            <h2><!--Insert HEADER HERE--!</h2>
-  </div>
-!-->        
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Favourites!</h1>
+          <img class="leading-artist">
+          <h2 data-aos="fade-up" data-aos-delay="400">Our Song - Astra Cartier</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#" class="btn-get-started scrollto">Readmore</a>
+            <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
+          
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+       <!--   <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
         </div>
       </div>
     </div>
-  </div>
+
+  </section><!-- End Hero -->
+<!--END OF BANNER!-->
+
+  
+      
+  <!--=======MUSIC LIBRARY========-->
+  <div class="musiclibrary-cover">
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+    <!-- INSERT SONGS HERE !-->
 
 <!-- INSERT SONGS HERE -->
 <section class="wrapper" >
@@ -148,31 +113,34 @@ body {
         <div class="content" >    
             <div class="container" >
                 <div class="row">
-        
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card"  style="width: 20rem; ">
+
+
+
+<!-- 2ND Song !-->
+<div class="col-xs-12 col-sm-4">
+                        <div class="card"  style="width: 20rem;  ">
                             <a class="img-card" href="">
-                            <img src="/image/Raez.jpg" />
+                            <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href=""> Love Mee Too
+                                    <a href="" > our song (outro)
                                   </a>
                                 </h4>
                                 <h5 class="card-title">
-                                    <a href=""> Razaec
+                                    <a href=""> astra cartier
                                   </a>
                                 </h5>
                                 <p class="">
                                 November 16, 2021 
                                 </p>  
                                 <h5 class="card-title">
-                                    <a href=""> Orchestral
+                                    <a href=""> Futurebass
                                   </a>
                                 </h5>
                     
                                 <!-- Trigger/Play button-->
-                                <img src="/play-button.png" style="width: 50px; height:50px;" 
+                                <img src="/succesor/play-button.png" style="width: 50px; height:50px;" 
                                  type="button"  class="modal-button" data-target="play-song" 
                                   href="#song2" type="button">
                             </div>
@@ -187,24 +155,101 @@ body {
 <div id="song2" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-    <div class="modal-header" style="background-image: url('/ios13DarkPreview-768x432.png');
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
     background-repeat:no-repeat;   background-size: cover;"> 
       <span class="close">&times;</span>
-      <h2 class="songh2">"Album Name"</h2>
+      <h2 class="songh2">Home at Last (2021)</h2>
     </div>
       
-    <div class="modal-body" style="background-image: url(/image/7bcc75bd4595cd470247bb872031e7d8-700.jpg);
-    background-repeat:no-repeat;   background-size: cover;"  >
-      <h2 class="song-titleh2" >Love Mee Too</h2>
-      <h2 class="song-titleh2">Razaec</h2>
+    <div class="modal-body" style="background-image: url('/succesor/albumbg/164763-building-atmosphere-skyscraper-world-light-x750.jpg');
+    background-repeat:no-repeat;   background-size: cover; " >
+      <h2 class="song-titleh2">our song (outro)</h2>
+      <h2 class="song-titleh2">astra cartier</h2>
 
-<img src="/image/Raez.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
+<img src="/succesor/image/cover.jpg" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  />
 
 <!-- Audio player !-->
-<audio src="/songs/STRINGSfinal.mp3 " controls 
-style="margin: 0 auto; width: 550px; margin-left:400px; margin-top:30px; position:relative;
-right:150px;"> </audio>  
 
+<div class="container-audio">
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+    </div>
+
+
+<div class="container-audio">
+        <audio controls >
+                   <source src="/succesor/songs/5 astra cartier - our song (outro).mp3" type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+    
 <!-- partial -->
         
   <script  src="js/player.js"></script>
@@ -213,13 +258,13 @@ right:150px;"> </audio>
 		
 <!-- Analytics -->
 <!-- End of Audio Control Parameter -->
-    <div class="modal-footer" style="background-image: url('/ios13DarkPreview-768x432.png');
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
     background-repeat:no-repeat;   background-size: cover;"> 
-      <h3 class="songh2"> Orchestral</h3>
+      <h3 class="songh2"> Drums & Bass</h3>
     </div>
   </div>
-
 </div>
+
 
 
 
@@ -234,66 +279,48 @@ right:150px;"> </audio>
     </div>
 </section>
 
-  <footer>
+    <!--END OF SONGS SECTION!-->
+
+
+      </div>
+    </section><!-- End Portfolio Section -->
+    </div>
+
+  <!-- ======= END OF MUSIC LIBRARY ======= -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="about">
-            <div class="logo">
-              <img src="/TentacitV1.1.png" alt="Tentacit" style="width: 250px; height:100px;">
-            </div>
-            <p><!--a little message here><--!--></p>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Rouser (Former Tentacit Records) Studio</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
+            Designed by <a href="https://bootstrapmade.com/"> Rouser (Former Tentacit) Media</a>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="helpful-links">
-            <h4>Helpful Links</h4>
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <ul>
-                  <li><a href="#">Categories</a></li>
-                  <li><a href="#">Reviews</a></li>
-                  <li><a href="#">Listing</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Awards</a></li>
-                  <li><a href="#">Useful Sites</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="contact-us">
-            <h4>Contact Us</h4>
-            <p><!--Address Here!--></p>
-            <div class="row">
-              <div class="col-lg-6">
-              <a href="#">Desk Fax#</a>
-              </div>
-              <div class="col-lg-6">
-                <a href="#">Manager mobile #</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="sub-footer">
-            <p>Copyright © 2021 Tentacit Records., All Rights Reserved.
-            <br>
-          </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
         </div>
       </div>
     </div>
-  </footer>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+</body>
 
 
-<script  src="/js/player.js"></script>
+
 <script>  // Get the button that opens the modal
 var btn = document.querySelectorAll("img.modal-button");
 
@@ -330,15 +357,12 @@ window.onclick = function(event) {
     }
 }</script>
 
-
 <script type="text/javascript">
  var urlmenu = document.getElementById( 'genres' );
- urlmenu.onchange = function() {
+ urlmenu.onchange = function() {  
       window.open( this.options[ this.selectedIndex ].value );
  };
 </script>
 
-
-</body>
 @endsection
 </html>

@@ -1,7 +1,9 @@
 <html>
 
 <head>
-
+<!-- Favicons -->
+<link href="/images/Hearo.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 @section('genre_kawaii')
@@ -29,10 +31,11 @@
                           <option value="Old Town">Bass</option>
                           <option value= "orchestral">Orchestral </option>
                           <option value="Modern City">House</option>
+                          <option value="lofi">Lo-Fi</option>
                           <option value="Modern City">Synthwave</option>
                           <option value="Modern City">Ambient</option>
                           <option value="Modern City">Dubstep</option>
-                          <option value="Modern City">Drums and Bass</option>
+                          <option value="drums&bass">Drums and Bass</option>
                           <option value="Modern City">Future House</option>
                           <option value="Modern City">Trance</option>
                           <option value="Modern City">Progressive</option>
@@ -41,7 +44,7 @@
                           <option value="Modern City">Trap</option>
                           <option value="Modern City">Future Bass</option>
                           <option value="Modern City">Complextro</option>
-                          <option value="drumstep">Drumstep</option>
+                          <option value="/Dance">Dance</option>
                           <option value="Modern City">Bounce</option>
                       </select>
             </fieldset>
