@@ -120,12 +120,12 @@
                @foreach($artists as $artists)
                 <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="#">
+                            <a class="img-card" href="{{route('artist_info', $artists['id'])}}">
                             <img src="/image/{{ $artists->image }}">
                           </a>
                             <div class="card-content-artist-list">
                                 <h4 class="card-title-artist-list">
-                                    {{$artists['artistname']}}
+                                {{$artists['artistname']}}
                                 </h4>
                                 <h5 class="card-title">
                                     <a href="#"> 

@@ -179,14 +179,7 @@ window.onclick = function(event) {
 @endsection
 </html>
 
-
-
-
-
-
 <!---CONTACT FORM MODAL!--->
-
-
 <!--MODAL!-->
 <div id="contact" class="modal">
   <!-- Modal content -->
@@ -196,7 +189,7 @@ window.onclick = function(event) {
       <span class="close">&times;</span>
      
     </div>
-    <section class="ftco-section img bg-hero" style="background-image: url(/images/retrowave-neon-artwork-minimalism-wallpaper-preview.jpg); background-size:cover; background-repeat:no-repeat;">      
+    <section class="ftco-section img bg-hero" style="background-image: url(/images/wp6854481-neon-minimalist-hd-wallpapers.png);">      
     <div class="modal-body" style="background-image: url('#');
     background-repeat:no-repeat;   background-size: cover;" >
   
@@ -218,23 +211,7 @@ window.onclick = function(event) {
 				        			<span class="fa fa-map-marker"></span>
 				        		</div>
 				        		<div class="text pl-4">
-					            <p class="common-p"><span style="color:white;">Address:</span> Koronadal City, South Cotabato, 9506, Philippines</p>
-					          </div>
-				          </div>
-				        	<div class="dbox w-100 d-flex align-items-start">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-phone"></span>
-				        		</div>
-				        		<div class="text pl-4">
-					            <p class="common-p"><span  style="color:white;">Phone:</span> + 0995-673-0952 (This is just a sample CP number)</p>
-					          </div>
-				          </div>
-				        	<div class="dbox w-100 d-flex align-items-start">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-paper-plane"></span>
-				        		</div>
-				        		<div class="text pl-4">
-					            <p class="common-p"><span  style="color:white;">Email:</span> Query@Hearo.com</p>
+					            <p class="common-p"><span  style="color:white;">Email:</span> Hearo@Mussio.com</p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-start">
@@ -311,7 +288,6 @@ window.onclick = function(event) {
 
 </div>
 
+
+
 <!--END of Paramenter!-->
-
-
-

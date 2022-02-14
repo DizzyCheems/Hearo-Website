@@ -42,10 +42,20 @@ Route::post('/contact-sent',[App\Http\Controllers\SiteController::class,'query' 
 /*<END>*/
 
 /*<!--Artist Information (READMORE)--!>*/
-Route::get('/artist-information',[App\Http\Controllers\SiteController::class,'artist_info' ])->name('artist');
+Route::get('/artist-information/{id}',[App\Http\Controllers\SiteController::class,'artist_profile' ])->name('artist_info');
+Route::get('/artist-view',[App\Http\Controllers\SiteController::class,'artist_profile_view' ])->name('artist_view');
+
 /*<END>*/
 
 
 /*<!--Song Information (READMORE)--!>*/
 /*Route::get('/song-information',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song');
 /*<END>*/
+
+
+
+
+/*<!--Artist Information (READMORE)--!>*/
+Route::get('/artist-information',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song');
+/*<END>*/
+

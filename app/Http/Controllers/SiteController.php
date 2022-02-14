@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\artists;
+use App\Models\artist;
+use App\Models\Song;
 use App\Models\prospect;
 use App\Models\Site;
 use Illuminate\Http\Request;
@@ -53,7 +54,7 @@ class SiteController extends Controller
     {
         // 
              //
-             $data= artists::all();
+             $data= artist::all();
              return view ('pages.client_artistlist', ['artists'=>$data]);
     }
 
@@ -135,10 +136,6 @@ class SiteController extends Controller
         return view('pages.song_readmore');
     }
 
-
-
-
-
     /**
      * Show the form for creating a new resource.
      *
@@ -174,6 +171,34 @@ class SiteController extends Controller
     
 
     }
+
+    public function artist_profile_view()
+    {
+        //
+        return view('pages.artist_readmore');
+    }
+
+    public function artist_profile(artist $data , $id)
+    {
+        //
+      //
+      $artist = artist::find($id);
+
+      return view ('pages.artist_readmore')->with('artist', $artist); }
+
+      /**
+     * Display a listing of the resource.   
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function artist_profile_data()
+    {
+        // 
+             //
+             $data= artist::all();
+             return view ('pages.artist_readmore', ['artists'=>$data]);
+    }
+
 
     /**
      * Display the specified resource.
