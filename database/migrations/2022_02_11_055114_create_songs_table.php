@@ -22,7 +22,6 @@ class CreateSongsTable extends Migration
             $table->string('date_registered');
             $table->string('album');
             $table->string('image');
-            $table->string('background_image');
             $table->string('audio');     
             $table->foreign('artist_id')
             ->references('id')

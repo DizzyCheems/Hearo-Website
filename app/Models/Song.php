@@ -12,7 +12,7 @@ class Song extends Model
     protected $table = 'songs';
 
     protected $fillable = [
-        'artist_id','songname', 'genre', 'author', 'album', 'date_registered', 'image', 'audio','background_image',
+        'artist_id','songname', 'genre', 'author', 'album', 'date_registered', 'image', 'audio',
         'file_path'
     ];
 

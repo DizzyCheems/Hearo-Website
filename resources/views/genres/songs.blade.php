@@ -7,7 +7,7 @@
         
                     <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem; ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/6">
                             <img src="/succesor/image/Raez.jpg" />
                           </a>
                             <div class="card-content">
@@ -156,7 +156,7 @@
 <!-- 2ND Song !-->
                     <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/3">
                             <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">
@@ -308,7 +308,7 @@
 <!--3RD Song !-->
 <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/1">
                             <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">
@@ -467,7 +467,7 @@
 <!-- 4th Song !-->
 <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/2">
                             <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">
@@ -620,7 +620,7 @@
 <!-- 5th Song !-->
 <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/5">
                             <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">
@@ -775,7 +775,7 @@
 <!-- 6th Song !-->
 <div class="col-xs-12 col-sm-4">
                         <div class="card"  style="width: 20rem;  ">
-                            <a class="img-card" href="">
+                            <a class="img-card" href="/song-information/4">
                             <img src="/succesor/image/cover.jpg" />
                           </a>
                             <div class="card-content">

@@ -130,11 +130,31 @@ class SiteController extends Controller
     }
 
 
-    public function song_info()
+        /**
+     * Display a listing of the resource.   
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function song_info(Song $songs , $id)
     {
-        //
-        return view('pages.song_readmore');
+             //
+             $songs= Song::find($id);
+             return view ('pages.song_readmore', ['songs'=>$songs]);
     }
+
+            /**
+     * Display a listing of the resource.   
+     *
+     * @return \Illuminate\Http\Response
+     */
+   /* public function song_info_data(Song $songs , $id)
+    {
+        // 
+             //
+             $songs= Song::all();
+             return view ('pages.song_readmore', ['songs', 'artist'=>$songs]);
+    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -178,12 +198,10 @@ class SiteController extends Controller
         return view('pages.artist_readmore');
     }
 
-    public function artist_profile(artist $data , $id)
+    public function artist_profile(artist $artist , $id)
     {
-        //
       //
       $artist = artist::find($id);
-
       return view ('pages.artist_readmore')->with('artist', $artist); }
 
       /**
@@ -199,6 +217,8 @@ class SiteController extends Controller
              return view ('pages.artist_readmore', ['artists'=>$data]);
     }
 
+    
+ 
 
     /**
      * Display the specified resource.

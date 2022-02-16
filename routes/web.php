@@ -17,12 +17,10 @@ Route::get('/', function () {
     return redirect()->route('homepage');
 });
 
-
 Route::get('/Home',[App\Http\Controllers\SiteController::class,'index' ])->name('homepage');
 Route::get('/About',[App\Http\Controllers\SiteController::class,'about' ])->name('details');
 Route::get('/Artist-Listing',[App\Http\Controllers\SiteController::class,'show_artistlist' ])->name('artists');
 Route::get('/Music-Listing',[App\Http\Controllers\SiteController::class,'musiclibrary' ])->name('musics');
-
 
 /*<!--Extra pages--!>*/
 Route::get('/Policy',[App\Http\Controllers\SiteController::class,'policy' ])->name('policy');
@@ -47,15 +45,9 @@ Route::get('/artist-view',[App\Http\Controllers\SiteController::class,'artist_pr
 
 /*<END>*/
 
-
 /*<!--Song Information (READMORE)--!>*/
-/*Route::get('/song-information',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song');
+Route::get('/song-information/{id}',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song_info');
+/*Route::get('/song-information/{id}',[App\Http\Controllers\SiteController::class,'song_info_data' ])->name('song_info');
 /*<END>*/
 
-
-
-
-/*<!--Artist Information (READMORE)--!>*/
-Route::get('/artist-information',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song');
-/*<END>*/
 
