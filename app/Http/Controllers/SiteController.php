@@ -214,11 +214,10 @@ class SiteController extends Controller
         // 
              //
              $data= artist::all();
-             return view ('pages.artist_readmore', ['artists'=>$data]);
+             return view ('pages.artist_readmore', ['artist'=>$data]);
     }
 
-    
- 
+
 
     /**
      * Display the specified resource.

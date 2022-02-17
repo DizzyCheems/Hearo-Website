@@ -49,7 +49,7 @@
 
 <section id="artistlist-info" class="d-flex align-items-center">
  <img class="featured-artist" src="/image/{{ $songs->image }}" style="  width: 350px; height:300px;
- margin-top:20px; margin-left:50px;">
+ margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
         
       <div class="row">
@@ -58,7 +58,8 @@
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">{{$songs['genre']}}</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#" class="btn-get-started scrollto">Listen</a>
+            <a class="modal-button, btn-get-started scrollto" data-target="play-song" 
+             href="#song5" type="button" class="btn-get-started scrollto">Listen</a>
             <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
           
           </div>
@@ -68,10 +69,82 @@
         </div>
       </div>
     </div>
-
+    
+    <section id="contact" class="contact">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-spotify"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+    </section>
   </section><!-- End Hero -->
   
 <!--END OF BANNER!-->
+
+    <!-- ======= Song Information Details ======= -->
+    <section id="portfolio-details" style="background-color: black;" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide" >
+                  <img src="/image/{{ $songs->image }}" style="height: 500px; width:600px;" alt="">
+                </div>
+
+                <div class="swiper-slide"> 
+                  <img src="/image/cover.jpg" style="height: 500px; width:600px;" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="/image/cover.jpg" style="height: 500px; width:600px;" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3 class="song-data-h3">Song information</h3>
+              <ul>
+                <li><strong>BPM</strong>: </li>
+                <li><strong>Layers</strong>:</li>
+                <li><strong>Date Released</strong>:{{$songs ['date_registered']}}</li>
+                <li><strong>Album  </strong>: {{$songs ['album']}}</li>
+                <li><strong>Genre </strong>:{{$songs ['genre']}} </li>
+                <li><strong>Mood </strong>: </li>
+                <li><strong>Theme  </strong>: Theme</li>
+                <li><strong>Featuring </strong>:  </li>
+                <li><strong>Lenght </strong>: </li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2 class="song-data-h2">Inspiration</h2>
+              
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos i
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Song Information Details Section -->
+
+  </main><!-- End #main -->
+
 
 
   <main id="main">
@@ -636,7 +709,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
     </section><-- End Testimonials Section -->
     </div>
     <!-- ======= Store Section ======= -->
-    <div class="port-cover">
+    <div class="song-details-cover">
     <section id="portfolio" class="portfolio">
       <div class="container">
 

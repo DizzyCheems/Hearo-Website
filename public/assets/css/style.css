@@ -371,6 +371,7 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
   transition: all 0.5s;
   padding: 22px 0;
   background: #fff;
+  
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1432,7 +1433,7 @@ section {
 }
 
 .services-cover {
-  background-image: url('/images/circle_neon.jpg');
+  background-image: url('/images/geometric-purple-neon-3d-cuboid-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
    background-repeat: no-repeat;
@@ -1716,6 +1717,20 @@ color:white;
     background-size: cover;
 }
 
+.artist-info-cover{
+  background-image: url('/images/wp6854481-neon-minimalist-hd-wallpapers.png');
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+
+
+.song-details-cover{
+  background-image: url('/images/wp6854481-neon-minimalist-hd-wallpapers.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1767,6 +1782,18 @@ color:white;
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
 }
+
+.song-data-h3{
+font-size:18px;
+color:white;
+}
+
+.song-data-h2{
+  font-size:16px;
+  color:white;
+  }
+  
+
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -1851,7 +1878,7 @@ color:white;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 5px solid aquamarine;
 }
 .portfolio-details .portfolio-info ul {
   list-style: none;
@@ -1868,9 +1895,12 @@ color:white;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color:white;
+  border-bottom: 5px solid aquamarine;
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
+  color:white;
 }
 
 /*--------------------------------------------------------------
@@ -2127,7 +2157,7 @@ color:white;
   border: 1px solid white;
 }
 .contact .social-links a:hover {
-  background: swhite
+  background: white
   ;
   color: #fff;
 }

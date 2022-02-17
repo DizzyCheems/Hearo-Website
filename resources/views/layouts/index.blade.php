@@ -16,7 +16,7 @@
 @section('site_contents')
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center"  style="background-image:url('/images/WallpaperDog-10881763.jpg');">
+  <header id="header"  class="fixed-top d-flex align-items-center"  style="background-image:url('/images/WallpaperDog-10881763.jpg');">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">

@@ -78,7 +78,7 @@
 
  <section id="home-musiclist" class="d-flex align-items-center">
  <img class="featured-artist" src="/succesor/image/cover.jpg" style="  width: 350px; height:300px;
- margin-top:20px; margin-left:50px;">
+ margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
         
       <div class="row">
@@ -87,8 +87,9 @@
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">Our Song - Astra Cartier</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#" class="btn-get-started scrollto">Readmore</a>
-            <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
+            <a href="song-information/3" class="btn-get-started scrollto">Readmore</a>
+            <a href="#song2" class="btn-get-started scrollto, modal-button "
+            data-target="play-song"  type="button" >Listen</a>
           
           </div>
         </div>
@@ -96,8 +97,19 @@
        <!--   <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
         </div>
       </div>
-    </div>
-
+    </div>    
+    <section id="contact" class="contact">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-spotify"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+    </section>
   </section><!-- End Hero -->
 <!--END OF BANNER!-->
 
@@ -167,7 +179,7 @@
 
 
 <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll("img.modal-button");
+var btn = document.querySelectorAll("a.modal-button, img.modal-button");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');

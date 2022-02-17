@@ -13,13 +13,11 @@
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
-@section('morelike_this')
+
 <body>
-  
-    <!-- ======= Store Section ======= -->
-    <div class="port-cover">
-    <section id="portfolio" class="portfolio">
-      <div class="container">
+@section('morelike_this')
+    <!-- ======= MORE Like This Section ======= -->
+
 
         <div class="section-title" data-aos="fade-up">
           <h2>More Like This</h2>
@@ -40,7 +38,6 @@
 
 
           <!-- First Element -->
-   
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src='\succesor\albumbg\7bcc75bd4595cd470247bb872031e7d8-700.jpg' class="img-fluid" alt="" style="width:360px; height:300px;">
@@ -49,7 +46,7 @@
                 <p>Orchestral</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/6"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -64,7 +61,7 @@
                 <p>Future Bass</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/3"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -79,7 +76,7 @@
                 <p>LO-FI</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/1"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -94,7 +91,7 @@
                 <p>LO-FI</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/2"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -109,7 +106,7 @@
                 <p>LO-FI</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/5"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -124,7 +121,7 @@
                 <p>LO-FI</p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="/song-information/4"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>

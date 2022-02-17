@@ -12,7 +12,7 @@
 <link href="/images/Hearo.png" rel="icon">
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
-
+@include('temp.artistlike')
 @section('site_artistinfo')
 <body>
   <!-- ======= Header ======= -->
@@ -49,11 +49,11 @@
 
 <section id="artistlist-info" class="d-flex align-items-center">
  <img class="featured-artist" src="/image/{{ $artist->image }}" style="  width: 350px; height:300px;
- margin-top:20px; margin-left:50px;">
+ margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
         
       <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d  -flex flex-column justify-content-center">
           <h1 data-aos="fade-up"> {{$artist['artistname']}}</h1>
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">Artist Persona</h2>
@@ -61,6 +61,13 @@
             <a href="#" class="btn-get-started scrollto">Readmore</a>
             <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
           
+           <!--   <div class="social-links">
+                <a style="border-radius: 50%; border:solid;" href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+             </div>
+                       -->
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -68,6 +75,20 @@
         </div>
       </div>
     </div>
+
+
+    <section id="contact" class="contact">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+    </section>
 
   </section><!-- End Hero -->
   
@@ -636,7 +657,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
     </section><-- End Testimonials Section -->
     </div>
     <!-- ======= Store Section ======= -->
-    <div class="port-cover">
+    <div class="artist-info-cover">
     <section id="portfolio" class="portfolio">
       <div class="container">
 
@@ -665,16 +686,16 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                 <h4 >{{$songs ['songname']}}</h4>
                 <p>{{$songs ['genre']}}</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="/image/{{ $songs->image }}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href=""  class="default-button"  title="More Details">More Like This</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}} "  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
           </div>
 
           @empty
-                <p>
-                    No models found
+                <p style="font-size: 16; font-weight:bold; color:white;">
+                    No Track Found
                 </p>
           @endforelse
 
@@ -684,6 +705,16 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
     </section><!-- End Portfolio Section -->
     </div>
 
+
+    <div class="artist-info-cover">
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+    @yield('like_artist')
+    
+    </div>
+    </section><!-- End Portfolio Section -->
+    </div>
     <!-- ======= Team Section ======= --
     <div class="team-cover">
     <section id="team" class="team section-bg" style="background-image:url('/images/slide_37.jpg');

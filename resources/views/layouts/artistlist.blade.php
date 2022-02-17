@@ -77,7 +77,7 @@
 
  <section id="artistlist-cover" class="d-flex align-items-center">
  <img class="featured-artist" src="/succesor/image/cover.jpg" style="  width: 350px; height:300px;
- margin-top:20px; margin-left:50px;">
+ margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px; ">
     <div class="container">
         
       <div class="row">
@@ -86,8 +86,8 @@
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">Astra Cartier</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#" class="btn-get-started scrollto">Readmore</a>
-            <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
+            <a href="/artist-information/1" class="btn-get-started scrollto">Readmore</a>
+            <a href="/artist-information/1" class="btn-get-started scrollto">Tracks/Albums</a>
           
           </div>
         </div>
@@ -97,13 +97,27 @@
       </div>
     </div>
 
+
+    <section id="contact" class="contact">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+    </section>
+
   </section><!-- End Hero -->
 <!--END OF BANNER!-->
 
   
       
   <!--=======MUSIC LIBRARY========-->
-  <div class="artistlist-page-cover">
+  <div class="artistlist-page-cover" >
     <section id="portfolio" class="portfolio">
       <div class="container">
 

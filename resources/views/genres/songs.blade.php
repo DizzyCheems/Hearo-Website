@@ -33,7 +33,7 @@
                                   href="#song1" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="song-information/6" style="color:darkorchid;" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
@@ -182,7 +182,7 @@
                                   href="#song2" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="song-information/3" style="color:darkorchid;" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
@@ -337,7 +337,7 @@
                                   href="#song3" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a style="color:darkorchid;" href="/song-information/1" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
@@ -493,7 +493,7 @@
                                   href="#song4" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="/song-information/2" style="color:darkorchid;" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
@@ -646,7 +646,7 @@
                                   href="#song5" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="/song-information/5" style="color:darkorchid;" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
@@ -801,7 +801,7 @@
                                   href="#song6" type="button">
                             </div>
                             <div class="card-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="/song-information/4" style="color:darkorchid;" class="btn btn-link btn-block">
                                     Read More
                                 </a>
                             </div>
