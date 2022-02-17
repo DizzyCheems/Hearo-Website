@@ -29,7 +29,7 @@
         <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#abo ut">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#store">Store</a></li>
           <li><a class="nav-link scrollto" href="{{route('artists')}}">Artists</a></li>
@@ -47,7 +47,7 @@
 <div style="border:azure;">
 <!--BANNER AREA!-->
 
-<section id="artistlist-info" class="d-flex align-items-center">
+<section id="artistlist-info" style="background-image:url('/image/{{$songs->image}}')" class="d-flex align-items-center">
  <img class="featured-artist" src="/image/{{ $songs->image }}" style="  width: 350px; height:300px;
  margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">

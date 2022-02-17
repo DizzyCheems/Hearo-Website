@@ -47,7 +47,7 @@
 <div style="border:azure;">
 <!--BANNER AREA!-->
 
-<section id="artistlist-info" class="d-flex align-items-center">
+<section id="artistlist-info" style=" background-image: url('/image/{{ $artist->image }}'); background-position:0.01px;"  class="d-flex align-items-center">
  <img class="featured-artist" src="/image/{{ $artist->image }}" style="  width: 350px; height:300px;
  margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
@@ -58,8 +58,8 @@
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">Artist Persona</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#" class="btn-get-started scrollto">Readmore</a>
-            <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
+            <a href="#" class="btn-get-started scrollto">Features</a>
+            <a href="#" class="btn-get-started scrollto">Social</a>
           
            <!--   <div class="social-links">
                 <a style="border-radius: 50%; border:solid;" href="#" class="twitter"><i class="bi bi-twitter"></i></a>
