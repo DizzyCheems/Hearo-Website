@@ -21,6 +21,8 @@ class CreateArtistsTable extends Migration
             $table->string('genre');
             $table->string('mail');
             $table->string('dateregistered');
+            $table->string('background_img');
+            $table->string('secondbackground_img');
             $table->string('nationality');
             $table->string('address');
             $table->string('image');  

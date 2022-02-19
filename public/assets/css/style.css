@@ -1187,7 +1187,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: magenta;
+  color: white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 
@@ -1504,7 +1504,7 @@ section {
 # More Services
 --------------------------------------------------------------*/
 .more-services-cover {
-  background-image: url('/images/WallpaperDog-10881780.jpg');
+  background-image: url('/images/WallpaperDog-10882149.jpg');
   background-repeat: no-repeat;
   background-size:1360px 1200px;
   background-position: -13px;
@@ -1718,15 +1718,14 @@ color:white;
 }
 
 .artist-info-cover{
-  background-image: url('/images/wp6854481-neon-minimalist-hd-wallpapers.png');
+  background-image: url('/image/space3.jpg');
   background-repeat: no-repeat;
-  
   background-size: cover;
 }
 
 
 .song-details-cover{
-  background-image: url('/images/wp6854481-neon-minimalist-hd-wallpapers.png');
+  background-image: url('/image/space4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

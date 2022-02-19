@@ -47,14 +47,14 @@
 <div style="border:azure;">
 <!--BANNER AREA!-->
 
-<section id="artistlist-info" style=" background-image: url('/image/{{ $artist->image }}'); background-position:0.01px;"  class="d-flex align-items-center">
- <img class="featured-artist" src="/image/{{ $artist->image }}" style="  width: 350px; height:300px;
+<section id="artistlist-info" style=" background-image: url('/image/{{ $artist->image }}'); background-size:cover;"  class="d-flex align-items-center">
+ <img class="featured-artist" src="/image/{{ $artist->background_img }}" style="  width: 350px; height:300px;
  margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
         
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d  -flex flex-column justify-content-center">
-          <h1 data-aos="fade-up"> {{$artist['artistname']}}</h1>
+          <h1 data-aos="fade-up" > {{$artist['artistname']}}</h1>
           <img class="leading-artist">
           <h2 data-aos="fade-up" data-aos-delay="400">Artist Persona</h2>
           <div data-aos="fade-up" data-aos-delay="800">
@@ -656,6 +656,72 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
       </div>
     </section><-- End Testimonials Section -->
     </div>
+
+
+    <!-- ======= Song Information Details ======= -->
+    <section id="portfolio-details" style="background-color: black;" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide" >
+                  <img src=" /image/{{ $artist->image }} " style="height: 500px; width:600px;" alt="">
+                </div>
+
+                <div class="swiper-slide"> 
+                  <img src=" /image/{{ $artist->background_img }}" style="height: 500px; width:600px;" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="/image/{{ $artist->secondbackground_img }}" style="height: 500px; width:600px;" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3 class="song-data-h3">Artist information</h3>
+              <ul>
+                <li><strong>Name</strong>: </li>
+                <li><strong>Tracks</strong>:</li>
+                <li><strong>Album</strong>:#</li>
+                <li><strong>Nationality  </strong>: #</li>
+                <li><strong>Genre</strong>:#</li>
+                <li><strong>Mood </strong>: </li>
+                <li><strong>Theme</strong>:#</li>
+             
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2 class="song-data-h2">About</h2>
+              
+              <p>
+                __________________________
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Song Information Details Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <main id="main">
+
+
+
+
     <!-- ======= Store Section ======= -->
     <div class="artist-info-cover">
     <section id="portfolio" class="portfolio">

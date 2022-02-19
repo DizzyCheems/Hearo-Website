@@ -135,7 +135,7 @@
                 <div class="col-xs-12 col-sm-4">
                         <div class="card">
                             <a class="img-card" href="{{route('artist_info', $artists['id'])}}">
-                            <img src="/image/{{ $artists->image }}">
+                            <img src="/image/{{ $artists->background_img }}">
                           </a>
                             <div class="card-content-artist-list">
                                 <h4 class="card-title-artist-list">

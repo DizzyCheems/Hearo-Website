@@ -48,7 +48,7 @@
 <!--BANNER AREA!-->
 
 <section id="artistlist-info" style="background-image:url('/image/{{$songs->image}}')" class="d-flex align-items-center">
- <img class="featured-artist" src="/image/{{ $songs->image }}" style="  width: 350px; height:300px;
+ <img class="featured-artist" src="/image/{{ $songs->background_image }}" style="  width: 350px; height:300px;
  margin-top:20px; margin-left:50px; border-color: white; border:solid; border-width:2px;">
     <div class="container">
         
@@ -59,8 +59,8 @@
           <h2 data-aos="fade-up" data-aos-delay="400">{{$songs['genre']}}</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a class="modal-button, btn-get-started scrollto" data-target="play-song" 
-             href="#song5" type="button" class="btn-get-started scrollto">Listen</a>
-            <a href="#" class="btn-get-started scrollto">Tracks/Albums</a>
+             href="{{route('musics')}}" type="button" class="btn-get-started scrollto">Listen</a>
+            <a href="#" class="btn-get-started scrollto">Download</a>
           
           </div>
         </div>
@@ -97,11 +97,11 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide" >
-                  <img src="/image/{{ $songs->image }}" style="height: 500px; width:600px;" alt="">
+                  <img src="/image/{{ $songs->background_image }}" style="height: 500px; width:600px;" alt="">
                 </div>
 
                 <div class="swiper-slide"> 
-                  <img src="/image/cover.jpg" style="height: 500px; width:600px;" alt="">
+                  <img src="/image/{{ $songs->image }}" style="height: 500px; width:600px;" alt="">
                 </div>
 
                 <div class="swiper-slide">
@@ -126,15 +126,16 @@
                 <li><strong>Theme  </strong>: Theme</li>
                 <li><strong>Featuring </strong>:  </li>
                 <li><strong>Lenght </strong>: </li>
-              </ul>
+                <li><strong>Background Image Sauce </strong>: </li>
+              </ul> 
             </div>
             <div class="portfolio-description">
               <h2 class="song-data-h2">Inspiration</h2>
               
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos i
+                  _________________________
               </p>
+          
             </div>
           </div>
 

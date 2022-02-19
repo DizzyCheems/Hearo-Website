@@ -14,13 +14,18 @@ class artist extends Model
     protected $primarykey = 'id';
 
 protected $fillable = [
-    'artistname', 'realname', 'number','genre', 'mail', 'dateregistered', 'nationality',
+    'artistname', 'realname', 'number','genre', 'mail', 'dateregistered', 'background_img', 'secondbackground_img', 'nationality',
     'address', 'image'
 ];
 
 public function song()
 {
     return $this->hasMany(Song::class);
+}
+
+public function background()
+{
+    return $this->hasMany(Background::class);
 }
 
 }
