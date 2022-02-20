@@ -142,6 +142,18 @@ class SiteController extends Controller
              return view ('pages.song_readmore', ['songs'=>$songs]);
     }
 
+       /**
+     * Display a listing of the resource.   
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function song_data(Song $song )
+    {
+             //          
+             $song= Song::all();
+             return view ('pages.client_musiclibrary', ['song'=>$song]);
+    }
+
             /**
      * Display a listing of the resource.   
      *
@@ -209,12 +221,12 @@ class SiteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function artist_profile_data()
+    public function artist_profile_data(artist $artist )
     {
         // 
              //
-             $data= artist::all();
-             return view ('pages.artist_readmore', ['artist'=>$data]);
+             $artist= artist::all();
+             return view ('temp.artistlike', ['artist'=>$artist]);
     }
 
 

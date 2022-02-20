@@ -752,13 +752,128 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                 <h4 >{{$songs ['songname']}}</h4>
                 <p>{{$songs ['genre']}}</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="#song{{$songs->id}}"  data-target="play-song"  class="default-button " title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="{{route('musics')}} "  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
           </div>
 
+
+<!--MODAL!-->
+<div id="song{{$songs->id}}" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">   
+    <div class="modal-header" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <span class="close">&times;</span>
+      <h2 class="songh2">"{{$songs ['album']}}"</h2>
+    </div>
+      
+    <div class="modal-body" style="background-image: url('/image/{{$songs ->image}}');
+    background-repeat:no-repeat;   background-size: cover;"  >
+      <h2 class="song-titleh2" >{{$songs ['songname']}}</h2>
+      <h2 class="song-titleh2">{{$songs ['author']}}</h2>
+
+<img src="/image/{{$songs ->background_image}}" style="width:300px; height:300px; margin-left:80px; border-radius:3px; border:solid;"  >
+
+<!-- Audio player !-->
+<div class="container-audio">
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+    </div>
+
+<div class="container-audio">
+        <audio controls >
+                   <source src="/songs/{{$songs->audio}} " type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+    
+
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		
+<!-- Analytics -->
+<!-- End of Audio Control Parameter -->
+    <div class="modal-footer" style="background-image: url('/succesor/ios13DarkPreview-768x432.png');
+    background-repeat:no-repeat;   background-size: cover;"> 
+      <h3 class="songh2"> {{$songs ['genre']}}</h3>
+    </div>
+  </div>
+</div>
+
+                               
           @empty
                 <p style="font-size: 16; font-weight:bold; color:white;">
                     No Track Found
@@ -1161,7 +1276,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
   
   <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll(".modal-button");
+var btn = document.querySelectorAll("a");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');

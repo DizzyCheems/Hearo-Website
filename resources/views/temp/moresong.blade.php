@@ -45,7 +45,7 @@
                 <h4 >String Orchestral (Final)</h4>
                 <p>Orchestral</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/1"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
@@ -60,7 +60,7 @@
               <h4> Our Song <h4>
                 <p>Future Bass</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/3"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                 <h4 >Hope</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/2"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
@@ -90,7 +90,7 @@
                 <h4 >Lush</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/4"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                 <h4 >Flowers Beneath Me</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/5"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
@@ -115,12 +115,12 @@
               <!-- Fourth Element -->
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src='\succesor\albumbg\falling-stars.gif' class="img-fluid" alt="" style="width:360px; height:300px;">
+              <img src='\image\AstraBG.png' class="img-fluid" alt="" style="width:360px; height:300px;">
               <div class="portfolio-info">
                 <h4 >Confide</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
+                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="/song-information/6"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>

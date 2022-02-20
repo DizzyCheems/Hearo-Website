@@ -1141,7 +1141,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
   
   <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll(".modal-button");
+var btn = document.querySelectorAll("a");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');

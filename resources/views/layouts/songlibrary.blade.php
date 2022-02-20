@@ -88,7 +88,7 @@
           <h2 data-aos="fade-up" data-aos-delay="400">Our Song - Astra Cartier</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="song-information/3" class="btn-get-started scrollto">Readmore</a>
-            <a href="#song2" class="btn-get-started scrollto, modal-button "
+            <a href="#song3" class="btn-get-started scrollto, modal-button "
             data-target="play-song"  type="button" >Listen</a>
           
           </div>
