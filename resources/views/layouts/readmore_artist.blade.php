@@ -875,7 +875,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                                
           @empty
                 <p style="font-size: 16; font-weight:bold; color:white;">
-                    No Track Found
+                    Looks like there are no songs ATM :< 
                 </p>
           @endforelse
 
@@ -1354,7 +1354,7 @@ window.onclick = function(event) {
 									<h3 class="mb-4">Contact us</h3>
 				        	<div class="dbox w-100 d-flex align-items-start">
 				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-map-marker"></span>
+				        			<span class="fa fa-envelope-open"></span>
 				        		</div>
 				        		<div class="text pl-4">
 					            <p class="common-p"><span  style="color:white;">Email:</span> Hearo@Mussio.com</p>
@@ -1402,7 +1402,7 @@ window.onclick = function(event) {
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
+                        <input type="submit" value="Send Message" class="contact-button">
 													<div class="submitting"></div>
 												</div>
 											</div>
