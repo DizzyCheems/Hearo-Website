@@ -117,16 +117,16 @@
             <div class="portfolio-info">
               <h3 class="song-data-h3">Song information</h3>
               <ul>
-                <li><strong>BPM</strong>: </li>
-                <li><strong>Layers</strong>:</li>
-                <li><strong>Date Released</strong>:{{$songs ['date_registered']}}</li>
-                <li><strong>Album  </strong>: {{$songs ['album']}}</li>
-                <li><strong>Genre </strong>:{{$songs ['genre']}} </li>
-                <li><strong>Mood </strong>: </li>
-                <li><strong>Theme  </strong>: Theme</li>
-                <li><strong>Featuring </strong>:  </li>
-                <li><strong>Lenght </strong>: </li>
-                <li><strong>Background Image Sauce </strong>: </li>
+                <li><strong>BPM</strong>:----------------------- </li>
+                <li><strong>Layers</strong>:-----------------------</li>
+                <li><strong>Date Released</strong>:-----------------------</li>
+                <li><strong>Album  </strong>: -----------------------</li>
+                <li><strong>Genre </strong>:----------------------- </li>
+                <li><strong>Mood </strong>:----------------------- </li>
+                <li><strong>Theme  </strong>:-----------------------</li>
+                <li><strong>Featuring </strong>-----------------------  </li>
+                <li><strong>Lenght </strong>----------------------- </li>
+                <li><strong>Background Image Sauce </strong>--------------------- </li>
               </ul> 
             </div>
             <div class="portfolio-description">
@@ -1141,7 +1141,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
   
   <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll("a");
+var btn = document.querySelectorAll("i");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');

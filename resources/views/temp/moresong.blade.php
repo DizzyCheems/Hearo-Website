@@ -45,8 +45,8 @@
                 <h4 >String Orchestral (Final)</h4>
                 <p>Orchestral</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/1"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/1"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -60,8 +60,8 @@
               <h4> Our Song <h4>
                 <p>Future Bass</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/3"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/3"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -75,8 +75,8 @@
                 <h4 >Hope</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/2"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/2"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -90,8 +90,8 @@
                 <h4 >Lush</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/4"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/4"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -105,8 +105,8 @@
                 <h4 >Flowers Beneath Me</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/5"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/5"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -120,8 +120,8 @@
                 <h4 >Confide</h4>
                 <p>LO-FI</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}}" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="/song-information/6"  class="default-button"  title="More Details">Readmore</a>
+                <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="{{route('musics')}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                <a style="font-size:16px; color:white;" href="/song-information/6"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
@@ -141,9 +141,8 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  
   <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll(".modal-button");
+var btn = document.querySelectorAll("i");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');
@@ -187,6 +186,8 @@ window.onclick = function(event) {
   
 </body>
 @endsection
+
+
 </html>
 
 

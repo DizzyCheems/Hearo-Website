@@ -689,13 +689,13 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
             <div class="portfolio-info">
               <h3 class="song-data-h3">Artist information</h3>
               <ul>
-                <li><strong>Name</strong>: </li>
-                <li><strong>Tracks</strong>:</li>
-                <li><strong>Album</strong>:#</li>
-                <li><strong>Nationality  </strong>: #</li>
-                <li><strong>Genre</strong>:#</li>
-                <li><strong>Mood </strong>: </li>
-                <li><strong>Theme</strong>:#</li>
+                <li><strong>Name</strong>: --------------- </li>
+                <li><strong>Tracks</strong>: ---------------</li>
+                <li><strong>Album</strong>:---------------</li>
+                <li><strong>Nationality  </strong>:---------------</li>
+                <li><strong>Genre</strong>:---------------</li>
+                <li><strong>Mood </strong>:--------------- </li>
+                <li><strong>Theme</strong>:---------------</li>
              
               </ul>
             </div>
@@ -752,13 +752,12 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
                 <h4 >{{$songs ['songname']}}</h4>
                 <p>{{$songs ['genre']}}</p>
                 <div class="portfolio-links">
-                  <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="#song{{$songs->id}}"  data-target="play-song"  class="default-button " title="App 1">Play</a>
-                  <a style="font-size:16px; color:white;" href="{{route('musics')}} "  class="default-button"  title="More Details">Readmore</a>
+                 <i class="play-button"> <a style="font-size:16px; color:white;" data-gallery="portfolioGallery" type="button" href="#song{{$songs->id}}"  data-target="play-song"  class="default-button " title="App 1">Play</a> </i>
+                  <a style="font-size:16px; color:white;" href="{{route('song_info', $songs['id'])}}"  class="default-button"  title="More Details">Readmore</a>
                 </div>
               </div>
             </div>
           </div>
-
 
 <!--MODAL!-->
 <div id="song{{$songs->id}}" class="modal">
@@ -1276,7 +1275,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
   
   <script>  // Get the button that opens the modal
-var btn = document.querySelectorAll("a");
+var btn = document.querySelectorAll("i");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');

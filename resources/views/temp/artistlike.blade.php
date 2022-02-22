@@ -13,7 +13,7 @@
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
-@section('like_artist')
+@section('like_artist') 
 <body>
   
     <!-- ======= Store Section ======= -->
