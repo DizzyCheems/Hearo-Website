@@ -46,6 +46,6 @@ Route::get('/artist-view',[App\Http\Controllers\SiteController::class,'artist_pr
 
 /*<!--Song Information (READMORE)--!>*/
 Route::get('/song-information/{id}',[App\Http\Controllers\SiteController::class,'song_info' ])->name('song_info');
-/*Route::get('/song-information/{id}',[App\Http\Controllers\SiteController::class,'song_info_data' ])->name('song_info');
+//Route::get('/song-information/{id}',[App\Http\Controllers\SiteController::class,'song_info_data' ])->name('song_info');
 /*<END>*/
 

@@ -730,14 +730,14 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-<!--
+
         @forelse($songs->artist as $songs)
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="" class="img-fluid" alt="" style="width:360px; height:300px;">
               <div class="portfolio-info">
-                <h4 >{{$songs ['songname']}}</h4>
-                <p>{{$songs ['genre']}}</p>
+                <h4 ></h4>
+                <p></p>
                 <div class="portfolio-links">
                   <a style="font-size:16px; color:white;" href="#" data-gallery="portfolioGallery" class="default-button" title="App 1">Play</a>
                   <a style="font-size:16px; color:white;" href="#"  class="default-button"  title="More Details">More Like This</a>

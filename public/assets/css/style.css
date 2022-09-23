@@ -622,7 +622,7 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
-  background-image: url('/succesor/albumbg/164763-building-atmosphere-skyscraper-world-light-x750.jpg');
+  background-image: url('/image/retrocity.jpg');
   background-repeat:no-repeat;   
   background-size: cover; 
   font-family: "Raleway", sans-serif;}
@@ -1193,7 +1193,6 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: black;
 }
 
 .section-bg {
