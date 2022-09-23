@@ -98,7 +98,7 @@
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients clients">
+    <section id="clients" class="clients clients" >
       <div class="container">
 
         <div class="row">
@@ -659,7 +659,7 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
 
     <!-- ======= Song Information Details ======= -->
-    <section id="portfolio-details" style="background-color: black;" class="portfolio-details">
+    <section id="portfolio-details" style="background-color:black;" class="portfolio-details" >
       <div class="container">
 
         <div class="row gy-4">
@@ -723,15 +723,15 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
 
 
     <!-- ======= Store Section ======= -->
-    <div class="artist-info-cover">
-    <section id="portfolio" class="portfolio">
+    <div class="artist-info-cover"  >
+    <section id="portfolio" class="portfolio" style="background-color:black;">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title" data-aos="fade-up" >
           <h2>{{$artist ['artistname']}} releases</h2>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
+        <div class="row" data-aos="fade-up" data-aos-delay="200" style="background-color:black;">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -742,10 +742,10 @@ Hearo Records envisions to be a company that gives hope and opportunity to all a
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+        <div class="row portfolio-container"    data-aos="fade-up" data-aos-delay="400"  >
 
         @forelse($artist->Song as $songs)
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app"  >
             <div class="portfolio-wrap">
               <img src="/image/{{ $songs->image }}" class="img-fluid" alt="" style="width:360px; height:300px;">
               <div class="portfolio-info">
